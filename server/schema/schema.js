@@ -154,7 +154,6 @@ const Mutation = new GraphQLObjectType({
                 return user;
             }
         },
-        // TODO: Create Posts 
         CreatePost: {
             type: PostType,
             args: {
